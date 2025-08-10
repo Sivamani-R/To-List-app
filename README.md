@@ -14,12 +14,6 @@ A simple and clean Todo List web application built with HTML, CSS, and JavaScrip
 
 ---
 
-## Demo
-
-![Todo List Screenshot](./screenshot.png)  
-*(Add your own screenshot image in the repo for better presentation)*
-
----
 
 ## Technologies Used
 
@@ -30,12 +24,14 @@ A simple and clean Todo List web application built with HTML, CSS, and JavaScrip
 ---
 
 ## File Structure
+```
 /
 ├── index.html
 ├── styles/
 │ └── todolist.css
 └── scripts/
 └── todolist.js
+```
 
 ---
 
@@ -73,20 +69,5 @@ A simple and clean Todo List web application built with HTML, CSS, and JavaScrip
 - Add editing functionality for existing tasks.
 - Add task completion toggles with styling for completed tasks.
 - Implement filtering/sorting by date or completion status.
-
----
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## Author
-
-Created by [Your Name]  
-Feel free to contribute or report issues!
-
----
 
 
