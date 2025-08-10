@@ -26,7 +26,7 @@ A simple and clean Todo List web application built with HTML, CSS, and JavaScrip
 ## File Structure
 ```
 /
-├── index.html
+├── todolist.html
 ├── styles/
 │ └── todolist.css
 └── scripts/
@@ -38,7 +38,7 @@ A simple and clean Todo List web application built with HTML, CSS, and JavaScrip
 ## How to Use
 
 1. Clone or download this repository.
-2. Open `index.html` in your preferred web browser.
+2. Open `todolist.html` in your preferred web browser.
 3. Type a task name in the "Todo name" input box.
 4. (Optional) Select a due date.
 5. Click the **Add** button or press **Enter** to add the task.
@@ -49,7 +49,7 @@ A simple and clean Todo List web application built with HTML, CSS, and JavaScrip
 
 ## Code Explanation
 
-- **index.html**  
+- **todolist.html**  
   Contains the basic HTML structure with input fields for task name and date, an Add button, and a container to display tasks.
 
 - **styles/todolist.css**  
