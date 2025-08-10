@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="styles/todolist.css">
+</head>
+
+<body>
+    <p class="header">Todo List Application</p>
+    <div class="topgrid">
+        <input class="js-input input-tab" placeholder="Todo name" onkeydown="
+        if (event.key==='Enter'){
+            add();
+        }">
+        <input type="date" class="js-date input-tab" onkeydown="
+        if (event.key==='Enter'){
+            add();
+        }">
+        <button class="js-addbutton add-button" onclick="
+        add();
+    ">Add</button>
+    </div>
+    <div class="js-display innergrid"></div>
+    <script src="scripts/todolist.js"></script>
+</body>
+
+
+</html>

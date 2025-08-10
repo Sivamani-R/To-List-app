@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
+
+.input-tab,
+.add-button {
+    padding: 6px;
+    font-size: 15px;
+}
+
+.add-button {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.innergrid,
+.topgrid {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.topgrid {
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+
+.delete-button {
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+
+
+.delete-button {
+    background-color: darkred;
+}
+
+.add-button {
+    background-color: green;
+}
